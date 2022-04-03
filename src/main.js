@@ -1,8 +1,19 @@
 import { createApp } from 'vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import App from './App.vue'
+import Home from './components/Home.vue'
+import About from './components/About.vue'
 import './main.css'
 
-createApp(App).mount('#app')
+const router = createRouter({
+    history: createWebHashHistory(),
+    routes: [
+        { path: '/', name: 'Home', component: Home},
+        { path: '/about', name: 'About', component: About}
+    ],
+})
+
+createApp(App).use(router).mount('#app')
 
 
 // dark mode stuff below
