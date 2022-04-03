@@ -15,10 +15,10 @@
                     <li>
                         <button id="theme-toggle" type="button" class="btn">
                             <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5">
-                                <use xlink:href="../assets/icons.svg#dark"></use>
+                                <use xlink:href="../../assets/icons.svg#dark"></use>
                             </svg>
                             <svg id="theme-toggle-light-icon" class="hidden w-5 h-5">
-                                <use xlink:href="../assets/icons.svg#light"></use>
+                                <use xlink:href="../../assets/icons.svg#light"></use>
                             </svg>
                         </button>
                     </li>

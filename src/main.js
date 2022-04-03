@@ -4,6 +4,8 @@ import './main.css'
 
 createApp(App).mount('#app')
 
+
+// dark mode stuff below
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
